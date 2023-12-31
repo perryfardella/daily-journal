@@ -3,10 +3,10 @@ import { ConfigProps } from "./types/config";
 
 const config = {
   // REQUIRED
-  appName: "ShipFast",
+  appName: "Daily List",
   // REQUIRED: a short description of your app for SEO tags (can be overwritten)
   appDescription:
-    "The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app.",
+    "An effective and efficient way to start your day, using key elements from the science of goal seeking, emotional health and motivation.",
   // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
   domainName: "shipfa.st",
   crisp: {
@@ -24,22 +24,23 @@ const config = {
           process.env.NODE_ENV === "development"
             ? "price_1Niyy5AxyNprDp7iZIqEyD2h"
             : "price_456",
+        isFeatured: true,
         //  REQUIRED - Name of the plan, displayed on the pricing page
-        name: "Starter",
+        name: "Early bird",
         // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
         description: "Perfect for small projects",
         // The price you want to display, the one user will be charged on Stripe.
-        price: 99,
+        price: 19,
         // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
-        priceAnchor: 149,
-        features: [
-          {
-            name: "NextJS boilerplate",
-          },
-          { name: "User oauth" },
-          { name: "Database" },
-          { name: "Emails" },
-        ],
+        priceAnchor: 39,
+        // features: [
+        //   {
+        //     name: "NextJS boilerplate",
+        //   },
+        //   { name: "User oauth" },
+        //   { name: "Database" },
+        //   { name: "Emails" },
+        // ],
       },
       {
         priceId:
@@ -47,21 +48,21 @@ const config = {
             ? "price_1O5KtcAxyNprDp7iftKnrrpw"
             : "price_456",
         // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
-        isFeatured: true,
-        name: "Advanced",
+        isFeatured: false,
+        name: "Late to the party",
         description: "You need more power",
-        price: 149,
-        priceAnchor: 299,
-        features: [
-          {
-            name: "NextJS boilerplate",
-          },
-          { name: "User oauth" },
-          { name: "Database" },
-          { name: "Emails" },
-          { name: "1 year of updates" },
-          { name: "24/7 support" },
-        ],
+        price: 39,
+        // priceAnchor: 299,
+        // features: [
+        //   {
+        //     name: "NextJS boilerplate",
+        //   },
+        //   { name: "User oauth" },
+        //   { name: "Database" },
+        //   { name: "Emails" },
+        //   { name: "1 year of updates" },
+        //   { name: "24/7 support" },
+        // ],
       },
     ],
   },
