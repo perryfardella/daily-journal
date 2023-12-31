@@ -8,6 +8,7 @@ import Image from "next/image";
 import ButtonSignin from "./ButtonSignin";
 import logo from "@/app/icon.png";
 import config from "@/config";
+import ByCreator from "./ByCreator";
 
 const links: {
   href: string;
@@ -131,6 +132,11 @@ const Header = () => {
               />
               <span className="font-extrabold text-lg">{config.appName}</span>
             </Link>
+            {/* <ByCreator
+              profileImage="https://twitter.com/lawmbass"
+              name="Lawrence"
+              profileLink="https://x.com/lawmbass"
+            /> */}
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5"

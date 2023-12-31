@@ -8,6 +8,7 @@ import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import ByCreator from "@/components/ByCreator";
 
 export default function Page() {
   return (
@@ -16,6 +17,11 @@ export default function Page() {
         <ButtonSignin text="Login" />
       </header> */}
       <Header />
+      <ByCreator
+        profileImage="https://twitter.com/perryfardella"
+        name="Perry"
+        profileLink="https://twitter.com/perryfardella"
+      />
       <main>
         <Hero />
         <Problem />
