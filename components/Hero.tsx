@@ -33,7 +33,7 @@ const Hero = () => {
           Get {config.appName}
         </button>
 
-        <TestimonialsAvatars priority={true} />
+        {/* <TestimonialsAvatars priority={true} /> */}
       </div>
       <div className="lg:w-full">
         <Image

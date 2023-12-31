@@ -28,7 +28,7 @@ const config = {
         //  REQUIRED - Name of the plan, displayed on the pricing page
         name: "Early bird",
         // A friendly description of the plan, displayed on the pricing page. Tip: explain why this plan and not others
-        description: "Perfect for small projects",
+        // description: "Perfect for small projects",
         // The price you want to display, the one user will be charged on Stripe.
         price: 19,
         // If you have an anchor price (i.e. $29) that you want to display crossed out, put it here. Otherwise, leave it empty
@@ -50,7 +50,7 @@ const config = {
         // This plan will look different on the pricing page, it will be highlighted. You can only have one plan with isFeatured: true
         isFeatured: false,
         name: "Late to the party",
-        description: "You need more power",
+        // description: "You need more power",
         price: 39,
         // priceAnchor: 299,
         // features: [
@@ -82,7 +82,7 @@ const config = {
     // Email shown to customer if need support. Leave empty if not needed => if empty, set up Crisp above, otherwise you won't be able to offer customer support."
     supportEmail: "marc@mg.shipfa.st",
     // When someone replies to supportEmail sent by the app, forward it to the email below (otherwise it's lost). If you set supportEmail to empty, this will be ignored.
-    forwardRepliesTo: "marc.louvion@gmail.com",
+    forwardRepliesTo: "perry.fardella@live.com",
   },
   colors: {
     // REQUIRED — The DaisyUI theme to use (added to the main layout.js). Leave blank for default (light & dark mode). If you any other theme than light/dark, you need to add it in config.tailwind.js in daisyui.themes.
