@@ -29,7 +29,7 @@ const faqList: FAQItemProps[] = [
     question: "I have another question",
     answer: (
       <div className="space-y-2 leading-relaxed">
-        Cool, contact us by email and we'll sort you out
+        Cool, contact us by email and we&apos;ll sort you out
       </div>
     ),
   },
