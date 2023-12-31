@@ -22,7 +22,7 @@ export default function Page() {
         <FeaturesAccordion />
         <Pricing />
         <FAQ />
-        <CTA />
+        {/* <CTA /> */}
       </main>
       <Footer />
     </>

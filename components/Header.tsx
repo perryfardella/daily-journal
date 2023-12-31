@@ -17,10 +17,10 @@ const links: {
     href: "/#pricing",
     label: "Pricing",
   },
-  // {
-  //   href: "/#testimonials",
-  //   label: "Reviews",
-  // },
+  {
+    href: "/#features",
+    label: "Features",
+  },
   {
     href: "/#faq",
     label: "FAQ",
